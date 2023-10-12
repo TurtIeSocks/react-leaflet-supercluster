@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/react-leaflet-supercluster.svg)](https://badge.fury.io/js/react-leaflet-supercluster)
 
-Basic React Leaflet wrapper for the [Supercluster](https://github.com/mapbox/supercluster)
+Basic React Leaflet wrapper for the fantastic [Supercluster](https://github.com/mapbox/supercluster) library.
 
 ## Installation
 
