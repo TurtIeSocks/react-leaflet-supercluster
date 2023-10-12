@@ -1,6 +1,6 @@
 {
   "name": "react-leaflet-supercluster",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React wrapper for the supercluster library",
   "repository": "https://github.com/TurtIeSocks/react-leaflet-supercluster",
   "author": "TurtIeSocks <58572875+TurtIeSocks@users.noreply.github.com>",
