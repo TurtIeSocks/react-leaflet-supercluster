@@ -1,0 +1,48 @@
+{
+  "name": "react-leaflet-supercluster",
+  "version": "1.0.1",
+  "description": "React wrapper for the supercluster library",
+  "repository": "https://github.com/TurtIeSocks/react-leaflet-supercluster",
+  "author": "TurtIeSocks <58572875+TurtIeSocks@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "build:ts": "tsc --project tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@turf/random": "^6.5.0",
+    "@types/leaflet": "^1.9.6",
+    "@types/node": "^18",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/supercluster": "^7.1.1",
+    "@vitejs/plugin-react": "^4.1.0",
+    "geojson": "^0.5.0",
+    "leaflet": "^1.9.4",
+    "leaflet-easybutton": "^2.4.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-leaflet": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.11",
+    "vite-plugin-checker": "^0.6.2"
+  },
+  "dependencies": {
+    "@turf/center": "^6.5.0",
+    "supercluster": "^8.0.1"
+  },
+  "peerDependencies": {
+    "leaflet": "^1.9",
+    "react": "^17 || ^18",
+    "react-dom": "^17 || ^18",
+    "react-leaflet": "^4"
+  }
+}
