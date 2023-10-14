@@ -29,7 +29,7 @@ Basic React Leaflet wrapper for the fantastic [Supercluster](https://github.com/
 This package primarily exports a React component that can be used anywhere as a child of a `MapContainer` component. It also provides a "low level" hook that just returns a Supercluster instance. See the [Example](/example) code for a more detailed usage example.
 
 ```tsx
-import 'react-leaflet-supercluster/dist/styles.css'
+import 'react-leaflet-supercluster/src/styles.css'
 import { MapContainer, Circle, CircleMarker, Marker Polygon, Polyline } from 'react-leaflet'
 import { SuperClustering } from 'react-leaflet-supercluster'
 
