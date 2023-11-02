@@ -16,19 +16,20 @@ export function useSuperClustering({
 }: Options<GeoJsonProperties, GeoJsonProperties>): InstanceType<
   typeof Supercluster
 > {
-  const options = useMemo(
-    () => ({
-      minPoints,
-      minZoom,
-      maxZoom,
-      extent,
-      generateId,
-      log,
-      map,
-      nodeSize,
-      radius,
-      reduce,
-    }),
+  const superCluster = useMemo(
+    () =>
+      new Supercluster({
+        minPoints,
+        minZoom,
+        maxZoom,
+        extent,
+        generateId,
+        log,
+        map,
+        nodeSize,
+        radius,
+        reduce,
+      }),
     [
       minPoints,
       minZoom,
@@ -42,11 +43,5 @@ export function useSuperClustering({
       reduce,
     ]
   )
-  const [superCluster, setSuperCluster] = useState(new Supercluster(options))
-
-  useEffect(() => {
-    setSuperCluster(new Supercluster(options))
-  }, [options])
-
   return superCluster
 }
