@@ -77,7 +77,5 @@ export function SuperClustering({
     disableZoomEvent,
   ])
 
-  return superCluster
-    ? normalizedChildren.filter((x, i) => markerFilter(x, i, markers))
-    : normalizedChildren
+  return normalizedChildren.filter((x, i) => markerFilter(x, i, markers))
 }
